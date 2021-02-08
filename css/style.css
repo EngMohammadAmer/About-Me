@@ -1,0 +1,36 @@
+  * {
+      margin: 0;
+  }
+
+  header {
+      background-color: greenyellow;
+      text-align: center;
+  }
+  
+  h1 {
+    color: brown;
+    text-align: center;
+  }
+
+  header nav ul li {
+      display: inline-block;
+      padding: 30px;
+      list-style: none;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #para {
+    text-align: center;
+  }
+
+  #linkedin {
+      float: right;
+  }
+
+  footer {
+      background-color: crimson;
+      text-align: center;
+      font-size: 30px;
+      font-family: 'Courier New', Courier, monospace;
+  }
+
