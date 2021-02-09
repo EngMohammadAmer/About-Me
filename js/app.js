@@ -10,11 +10,11 @@ console.log(softdev);
 if (softdev.toLowerCase()==='yes' || softdev.toLowerCase()==='y'){
   console.log(softdev);
   alert('thank you');
-}else if (softdev.toLowerCase()==='no'|| softdev.toLowerCase()==='n') {
+} else if (softdev.toLowerCase()==='no'|| softdev.toLowerCase()==='n') {
   console.log(softdev);
   let reason1=prompt('please write down the reason...');
   console.log(reason1);
-}else{
+} else{
   alert('!!! Kindly answer the question with y/n or yes/no !!!');
   softdev = prompt('Do you think software development course will increase your computer skills ?');
   console.log(softdev);
@@ -54,11 +54,11 @@ let laptop=prompt('do you have your own laptop?');
 console.log(laptop);
 
 if (laptop.toLowerCase()==='yes' || laptop.toLowerCase()==='y'){
-console.log(laptop);
+  console.log(laptop);
 } else if (laptop.toLowerCase()==='no'|| laptop.toLowerCase()==='n'){
   console.log(laptop);
   let reason4=prompt('please write down the reason...');
-  console.log(reason4);        
+  console.log(reason4);
 } else {
   alert('!!! Kindly answer the question with y/n or yes/no !!!');
   laptop=prompt('do you have your own laptop?');
@@ -67,5 +67,4 @@ console.log(laptop);
 
 alert('YOU ARE WELCOME ' + userName + ', you can proceed to my website');
 
-document.write('THANK YOU ' + userName + ', you discovered my website')
- 
+document.write('THANK YOU ' + userName + ', you discovered my website');
