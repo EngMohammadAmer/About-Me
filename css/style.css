@@ -1,7 +1,3 @@
-  * {
-      margin: 0;
-  }
-
   header {
       background-color: greenyellow;
       text-align: center;
@@ -34,3 +30,7 @@
       font-family: 'Courier New', Courier, monospace;
   }
 
+main ol {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}

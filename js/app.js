@@ -1,7 +1,7 @@
 'use strict';
 let userName = prompt('What is your Name??');
 console.log(userName);
-alert('YOU ARE WELCOME ' + userName + ',you can proceed to my website');
+alert('YOU ARE WELCOME ' + userName + ', you can proceed to my website');
 alert('you will be asked many questions in series and you must clarify your answer by y/n or yes/no !!');
 
 let softdev = prompt('Do you think software development course will increase your computer skills ?');
