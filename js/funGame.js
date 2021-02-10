@@ -1,5 +1,5 @@
 'use strict';
-
+function playFun() { 
 let seriesList=['cukur','kara sevda','ertugrul','osman'];
 console.log(seriesList);
 console.log(seriesList.length);
@@ -27,3 +27,5 @@ while(attempt && !corr){
     alert('No more attempts left !!!!');
   }
 }
+}
+playFun();
