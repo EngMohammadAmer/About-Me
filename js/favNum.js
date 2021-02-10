@@ -1,5 +1,5 @@
 'use strict';
-
+function playNumber() { 
 let attempts=3;
 let userInput=prompt('Guess my Favorite Number between 1 to 10 !!!');
 console.log(userInput);
@@ -27,3 +27,5 @@ while(attempts && !correct){
     break;
   }
 }
+}
+playNumber();
