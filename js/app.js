@@ -1,38 +1,39 @@
 'use strict';
+
 let userName = prompt('What is your Name??');
 console.log(userName);
 alert('YOU ARE WELCOME ' + userName + ', you can proceed to my website');
 alert('you will be asked many questions in series and you must clarify your answer by y/n or yes/no !!');
 
-let softdev = prompt('Do you think software development course will increase your computer skills ?');
-console.log(softdev);
+let softDev = prompt('Do you think software development course will increase your computer skills ?');
+console.log(softDev);
 
-if (softdev.toLowerCase()==='yes' || softdev.toLowerCase()==='y'){
-  console.log(softdev);
+if (softDev.toLowerCase()==='yes' || softDev.toLowerCase()==='y'){
+  console.log(softDev);
   alert('thank you');
-} else if (softdev.toLowerCase()==='no'|| softdev.toLowerCase()==='n') {
-  console.log(softdev);
+} else if (softDev.toLowerCase()==='no'|| softDev.toLowerCase()==='n') {
+  console.log(softDev);
   let reason1=prompt('please write down the reason...');
   console.log(reason1);
 } else{
   alert('!!! Kindly answer the question with y/n or yes/no !!!');
-  softdev = prompt('Do you think software development course will increase your computer skills ?');
-  console.log(softdev);
+  softDev = prompt('Do you think software development course will increase your computer skills ?');
+  console.log(softDev);
 }
 
-let locationone=prompt('Do you like to study at campus?');
-console.log(locationone);
+let locationOne=prompt('Do you like to study at campus?');
+console.log(locationOne);
 
-if (locationone.toLowerCase()==='yes' || locationone.toLowerCase()==='y'){
-  console.log(locationone);
-} else if (locationone.toLowerCase()==='no' || locationone.toLowerCase()==='n'){
-  console.log(locationone);
+if (locationOne.toLowerCase()==='yes' || locationOne.toLowerCase()==='y'){
+  console.log(locationOne);
+} else if (locationOne.toLowerCase()==='no' || locationOne.toLowerCase()==='n'){
+  console.log(locationOne);
   let reason2=prompt('please write down the reason...');
   console.log(reason2);
 } else {
   alert('!!! Kindly answer the question with y/n or yes/no !!!');
-  locationone=prompt('Do you like to study at campus?');
-  console.log(locationone);
+  locationOne=prompt('Do you like to study at campus?');
+  console.log(locationOne);
 }
 
 let group=prompt('do you like to work in groups?');
